@@ -19,7 +19,7 @@ makeCacheMatrix <- function(matrixx = matrix()) {
 	getInv <- function() {
 	globalInverse
 	}
-	list(set = set, get = get, setmean = setmean, getmean = getmean)
+	list(set = set, get = get, setInv = setInv, getInv = getInv)
 }
 
 
